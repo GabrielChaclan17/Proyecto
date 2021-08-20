@@ -1,0 +1,218 @@
+body{
+    background-color: #D4EFDF ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .programer{
+    margin-left: 5%;
+  }
+/* Img Inicio */
+.cardimg .card-img-overlay .card-text{
+    justify-content: end;
+    text-align: justify; 
+}
+
+.container{
+    margin-left: 56%;
+    margin-top: 25%;
+    text-align: end;
+    width: 40%;
+    
+}
+/* Oradores */
+.titulo{
+    text-align: center;
+    margin-top: 4%;
+}
+.card-group{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.card-group .card-body .card-text{
+    text-align: justify;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/* Img Final */
+.final{
+    margin-top: 3%;
+}
+
+.final .card-body {
+    text-align: justify;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: block;
+}
+
+/* Contacto Index */
+ .contacto-index{
+        align-content: center;
+        background-color: #ffffbf;
+        width: 995px;
+        padding: 30px;
+        margin-top: 2%;
+        margin-left: 9%;
+        margin-right: 9%;
+        justify-content: center;
+        margin-bottom: 6%;
+      }
+
+  /* Footer */
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    }
+  
+  .contenedor{
+    width: 100%;
+    max-width: 3000px;
+    margin: auto;
+    margin-top: auto;
+    box-sizing: content-box;
+    position: relative;
+    padding-top: 0%;
+  }
+  
+  .container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .container-body{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .colum1{
+    max-width: 400px;
+  }
+  
+  .colum1 h1{
+    font-size: 22px;
+  }
+  
+  .colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  .colum2{
+    max-width: 400px;
+    
+  }
+  
+  .colum2 h1{
+    font-size: 22px;
+  }
+  
+  .red{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .red img{
+    width: 36px;
+    height: 36px;
+  }
+  
+  .red label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+  }
+  
+  .colum3{
+    max-width: 400px;
+  }
+  
+  .colum3 h1{
+    font-size: 22px;
+  }
+  
+  .red2{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .red2 img{
+    width: 36px;
+    height: 36px;
+  }
+  
+  .red2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+  }
+  
+  .container-footer{
+    width: 100%;  
+    background: #101010;
+  }
+  
+  .footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+  }
+  
+  .copyright{
+    color: #C7C7C7;
+  }
+  
+  .copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .information a{
+    text-decoration: none;
+    color: #C7C7C7;
+  }
+  
+  
+  @media screen and (max-width: 1280px){
+    
+    .container{
+        margin-left: 38%;
+        margin-top: 30%;
+        text-align: end;
+        width: 60%;
+    }
+    .contacto-index{
+      max-width: 89%;
+      margin-left: 3%;
+      
+    }
+    .container-footer-all{
+      margin-top: 30%;
+    }
+  
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+  }
+  
